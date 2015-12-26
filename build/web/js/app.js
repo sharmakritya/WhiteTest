@@ -1,6 +1,6 @@
 var wsUrl;
 if (window.location.protocol == 'http:') {
-  	wsUrl = 'ws://' + window.location.host + ':8000/websocket-reverse-echo-examples/echo';
+  	wsUrl = 'ws://' + window.location.host + ':8000/WhiteTest/echo';
 } else {
   	wsUrl = 'wss://' + window.location.host + ':8443/WhiteTest/echo';
 }
